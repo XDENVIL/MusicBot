@@ -421,7 +421,7 @@ async def play(_, message: Message):
                         message.chat.id, "I joined this group for playing music in VC"
                     )
                     await lel.edit(
-                        "<b>helper userbot joined your chat</b>",
+                        "<b>@Denvilplay userbot joined your chat</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -529,7 +529,7 @@ async def play(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                    InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                    InlineKeyboardButton(text="Join music group 📥", url="https://t.me/MusicBotEnjoy_group"),
                 ],
                 [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
             ]
@@ -834,7 +834,7 @@ async def jiosaavn(client: Client, message_: Message):
             ],
             [
                 InlineKeyboardButton(
-                    text="Join Updates Channel", url=f"https://t.me/{updateschannel}"
+                    text="Join Updates Channel", url="https://t.me/Denvil_bots")
                 )
             ],
             [InlineKeyboardButton(text="❌ Close", callback_data="cls")],
